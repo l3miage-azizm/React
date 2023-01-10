@@ -1,0 +1,96 @@
+nav {
+    background: #212121;
+    box-shadow: inset 5px 5px 9px #141414,
+                inset -5px -5px 9px #2e2e2e;
+    z-index: 100;
+    border-radius: 60px;
+    margin-left: -40px;
+    width: 210px;
+    position: absolute;
+    margin-top: -269px;
+    height: 100%;
+
+}
+
+.textHeader{
+    display: none;
+    padding-top: 30px;
+    margin-left: 210px;
+    margin-top: -150px;
+    border-radius: 60px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.bouttoN {
+    background: #212121;
+    box-shadow: inset 5px 5px 9px #141414,
+                inset -5px -5px 9px #2e2e2e;
+    background: transparent;
+    width: 150px;
+    height: 150px;
+    padding: 0 2rem;
+    ;
+    border-radius: 40px;
+    background-size: 400%;
+    background-position: 90% 0;
+    border: transparent;
+    color: #ffffff;
+    font-size: 30px;
+    transition: background 0.8s;
+}
+
+.bouttoN:hover {
+    background: rgb(149, 149, 147);
+}
+
+.ulHeander {
+    margin-left: -20px;
+    z-index: 0;
+    margin-top: 500px;
+    position: absolute;
+    padding: 0;
+    list-style-type: none;
+}
+
+.ulHeander>li {
+    padding: 60px;
+}
+
+.meNu {
+    border: transparent;
+    background: transparent;
+    margin-top: 10px;
+    width: 100px;
+    height: 185px;
+    padding: 0 2rem;
+    border-radius: 40px;
+    background-size: 400%;
+    background-position: 90% 0;
+    color: #ffffff;
+    font-size: 30px;
+    transition: background 0.8s;
+    margin-left: 05px;
+}
+
+.meNu>img {
+    width: 141px;
+    margin-top: 25px;
+}
+
+.home {
+    width: 107px;
+    margin-top: 10px;
+    margin-left: -21px;
+}
+
+.dashbord {
+    width: 107px;
+    margin-top: 10px;
+    margin-left: -21px;
+}
+
+.add {
+    width: 107px;
+    margin-top: 10px;
+    margin-left: -21px;
+}

@@ -1,0 +1,11 @@
+.qrcode__container{
+    height: 480px;
+    width: 480px;
+    margin-left: 61px;
+    margin-top: 431px;
+}
+
+.qrCode{
+    margin-left: 62px;
+    margin-top: -6px;
+}

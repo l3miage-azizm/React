@@ -1,0 +1,72 @@
+.contain{
+    margin-top: 87px;
+    width: 800px;
+    /* margin-left: 48px; */
+    height: 800px;
+    border-radius: 50%;
+    background: #f2f0f000;
+    box-shadow: 5px 5px 10px #aaa27c, -5px -5px 10px #99998b42;
+    /* border: 29px solid #cdc6c6; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contContainer{
+    width: 700px;
+    /* margin-left: 48px; */
+    height: 700px;
+    border-radius: 50%;
+    background: #5a55421a;
+    box-shadow: 5px 5px 10px #2b2b2b, -5px -5px 10px #14141342;
+    /* border: 29px solid #cdc6c6; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contCont{
+    width: 500px;
+    /* margin-left: 48px; */
+    height: 500px;
+    border-radius: 50%;
+    background: #f2f0f000;
+    box-shadow: 5px 5px 10px #aaa27c, -5px -5px 10px #99998b42;
+    /* border: 29px solid #cdc6c6; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttons{
+    margin-top: -1116px;
+    margin-left: -883px;
+    width: 100px;
+}
+.btnLi{
+    display: inline;
+}
+
+.butOn{
+    width: 472px;
+    height: 100px;
+    padding: 18px 0rem;
+    border-radius: 15px;
+    background: linear-gradient(145deg, #1d1c20, #18171b);
+    box-shadow:  5px 5px 10px #101012,
+                 -5px -5px 10px #26242a;
+    color: #ffffff;
+    font-size: 32px;
+    transition: background 1s;  }
+   
+    .butOn:hover{
+     background-position: 185% 50%;
+    }
+
+    .numbers{
+        color: white;
+    font-size: 6.5rem;
+    }
+    .ulButton{
+        margin-top: 665px;
+        margin-left: -166px;
+    }
