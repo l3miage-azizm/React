@@ -1,13 +1,76 @@
+
+ html {
+  background-image: url("./HCooking.png");
+  background-size: 100%;
+ }
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family:Copperplate Gothic;
+  position:fixed;
+  min-height: 100vh;
+  }
+body>div{
+  margin-top: 262px;
+}
+div{
+  animation-name:opacity;
+  animation-duration:1s;  
+
+}
+@keyframes opacity{
+    0%{opacity:0.5;}
+    100%{opacity:1;}
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header{
+  position: relative;
 }
+ul {
+  z-index: 0;  
+  margin-top: 874px;
+  position: absolute;
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  padding: 20px;
+}
+.root{
+  margin-top: 20px;
+}
+
+.boutton{
+ width: 300px;
+ height: 100px;
+ padding: 0 2rem;;
+ border-radius: 40px;
+ background: linear-gradient(
+   -45deg, #2b292c, #141414,#c9c4cd);
+background-size: 400%;
+background-position: 90% 0;
+border: 2px solid #a894b7;
+color: #ffffff;
+font-size: 30px;
+transition: background 0.8s;
+}
+
+ .boutton:hover{
+  background-position: 185% 50%;
+ }
+
+ ::-webkit-scrollbar{
+  width: 30px;
+  background: #fbf9f9;
+  height: 42px;
+}
+
+ ::-webkit-scrollbar-thumb{
+  background: rgb(16, 16, 16);
+  border-radius: 5px; 
+ }
+
+ 
+ ::-webkit-scrollbar-track{
+  background: white;
+  border-radius: 5px;
+ }

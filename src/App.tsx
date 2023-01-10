@@ -1,26 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import Content from "./components/organisms/Content";
+import Header from "./components/organisms/Header";
+import GlobalContextProvider from "./contexts/GlobalContext";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GlobalContextProvider>
+      <BrowserRouter>
+        <Header />
+        <Content />
+      </BrowserRouter>
+    </GlobalContextProvider>
   );
-}
+};
 
 export default App;
