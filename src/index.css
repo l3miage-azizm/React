@@ -1,11 +1,12 @@
-
+*{
+transform: scale(0.8);}
 body {
  background-image: url("./HCooking.png");
   background-size: 100%;
   font-family:Copperplate Gothic;
   position:fixed;
   min-height: 100vh;
- transform: scale(0.8);
+ 
   }
 body>div{
   margin-top: 262px;
