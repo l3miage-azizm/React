@@ -2,6 +2,7 @@
  html {
   background-image: url("./HCooking.png");
   background-size: 100%;
+  zoom:30%;
  }
 body {
   font-family:Copperplate Gothic;
