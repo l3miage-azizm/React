@@ -1,0 +1,32 @@
+.textBienvenue{
+    margin-left: 2500px;
+    margin-top: 250px;
+    /* display: grid; */
+    /* grid-template-columns: auto auto auto auto; */
+    height: 1746px;
+    width: 2425px;
+    font-weight:bolder;
+    font-size: 110px;
+    color: white;
+    /* overflow-y: scroll; */
+    border-radius: 36px;
+    background: transparent;
+   }
+   .bouttonhome{
+    color: white;
+    box-shadow: inset 2px 3px 3px #060505,
+    inset -5px -5px 10px #2d2c2c;
+    background: #24242a6b;
+    position: relative;
+    margin-left: 355px;
+    width: 981px;
+    height: 113px;
+    border-radius: 27px;
+    margin-top: 41px;
+    font-size: 65px;
+   }
+   
+.bouttonhome:hover {
+    background: rgba(177, 174, 174, 0.187);
+    color: white;
+}
